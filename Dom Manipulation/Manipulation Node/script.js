@@ -24,3 +24,9 @@ const ul = document.querySelector('section#b ul');
 const li2 = ul.querySelector('li:nth-child(2)')
 
 ul.insertBefore(liBaru, li2);
+
+
+
+// removeChild
+const link = document.getElementsByTagName('a')[0];
+sectionA.removeChild(link);
